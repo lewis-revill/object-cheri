@@ -6003,6 +6003,10 @@ pub const EF_RISCV_FLOAT_ABI_SINGLE: u32 = 0x0002;
 pub const EF_RISCV_FLOAT_ABI_DOUBLE: u32 = 0x0004;
 #[allow(missing_docs)]
 pub const EF_RISCV_FLOAT_ABI_QUAD: u32 = 0x0006;
+#[allow(missing_docs)]
+pub const EF_RISCV_CHERIABI: u32 = 0x10000;
+#[allow(missing_docs)]
+pub const EF_RISCV_CAP_MODE: u32 = 0x20000;
 
 // RISC-V values `Rel*::r_type`.
 #[allow(missing_docs)]
