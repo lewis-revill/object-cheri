@@ -3968,6 +3968,11 @@ pub const SHT_ARM_ATTRIBUTES: u32 = SHT_LOPROC + 3;
 /// No relocation.
 pub const R_AARCH64_NONE: u32 = 0;
 
+// AArch64 values for `FileHeader64::e_flags`.
+
+/// CHERI purecap mode.
+pub const EF_AARCH64_CHERI_PURECAP: u32 = 0x10000;
+
 // ILP32 AArch64 relocs.
 /// Direct 32 bit.
 pub const R_AARCH64_P32_ABS32: u32 = 1;
